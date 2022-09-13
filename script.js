@@ -12,7 +12,7 @@ var numeroSecreto = parseInt(Math.random() * 11);
     elementoResultado.innerHTML="Voce deve digitar um número entre 0 e 10";
   }
     else {
-    elementoResultado.innerHTML="Errou!" + numeroSecreto "era o numeor secreto";
+    elementoResultado.innerHTML="Errou!O numero secreto era "  +  numeroSecreto;
     }
    
 }
